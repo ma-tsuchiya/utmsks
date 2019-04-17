@@ -126,7 +126,9 @@ Microsoft IME　が選択されていれば、とくに問題ないはずです�
     ![account_create](img/imgaccCreate.PNG)
 - 「アカウントの種類」を「管理者」に変更して「OK」をクリックします。
     - この画面でOKを押せば大丈夫です。
+
     ![account_OK](img/imgaccOK.PNG)
+
 - TAのアカウントはログアウトし、今作成した受講生用のアカウントにログインしてください。
 
 終わりです。
