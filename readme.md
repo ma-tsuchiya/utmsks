@@ -84,7 +84,7 @@ windows をインストールします。
 
 - 「次へ」を押します。
 
-![パーティション](https://github.com/ngtkana/blob/master/img/img2.JPG?raw=true)
+![パーティション](https://github.com/ngtkana/utmska/blob/master/img/img2.JPG?raw=true)
 
 インストールが始まり、自動的に再起動されます。少し時間が掛かります。
 
@@ -98,7 +98,7 @@ windows をインストールします。
 - キーボードレイアウトに「Microsoft IME」が選ばれていることを確認し、「はい」を押します。
 - 二つ目のキーボードレイアウトは使用しないので、「スキップ」を押します。
 - 「個人用に設定」を選び、「次へ」を押します。
-- まずはTAのアカウントを作成します。この画面になったらTAを呼んでください。![アカウント作成画面](https://github.com/ngtkana/blob/master/img/img3.JPG)
+- まずはTAのアカウントを作成します。この画面になったらTAを呼んでください。![アカウント作成画面](https://github.com/ngtkana/utmsks/blob/master/img/img3.JPG)
 - Cortana の設定画面が出てくるので「後で設定する」をクリックします。
 - Windows の初期設定では個人情報が Microsoft に送信されます。それを回避するため、プライバシー設定はすべてオフにして、「同意」を押してください。
 
