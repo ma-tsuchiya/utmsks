@@ -28,7 +28,7 @@ TA の配布する USB メモリに Windows が入っているので、それを
 
 タイミングが割とシビアなのでちゃんと連打しましょう。すると見慣れない画面に遷移するはずです。それが BIOS の設定画面です。なお Windows のログイン画面が出たら連打ゲー失敗なので、一度シャットダウンしてやり直してください。
 
-![BIOS 設定画面](https://github.com/ngtkana/utmsks/img/img1.JPG)
+![BIOS 設定画面](https://github.com/ngtkana/utmsks/blob/master/img/img1.JPG)
 
 ### BIOS の設定をする
 表示言語はおそらく英語か日本語になっていると思います。どちらでも問題ないのですが、変えるには左上の「English」とか書いてある部分をクリックしてプルダウンメニューで選べば大丈夫です。ここで触るのは次の3つです。
@@ -84,7 +84,7 @@ windows をインストールします。
 
 - 「次へ」を押します。
 
-![パーティション](https://github.com/ngtkana/utmska/blob/master/img/img2.JPG?raw=true)
+![パーティション](https://github.com/ngtkana/utmsks/blob/master/img/img2.JPG)
 
 インストールが始まり、自動的に再起動されます。少し時間が掛かります。
 
