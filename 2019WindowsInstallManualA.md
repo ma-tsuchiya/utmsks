@@ -30,6 +30,36 @@ TA の配布する USB メモリに Windows が入っているので、それを
 タイミングが割とシビアなのでちゃんと連打しましょう。すると見慣れない画面に遷移するはずです。それが BIOS の設定画面です。なお Windows のログイン画面が出たら連打ゲー失敗なので、一度シャットダウンしてやり直してください。
 
 <!--- 画面の写真を貼るところから--->
+![BIOS 設定画面](img/img1.JPG)
+
+### BIOS の設定をする
+表示言語はおそらく英語か日本語になっていると思います。どちらでも問題ないのですが、変えるには左上の「English」とか書いてある部分をクリックしてプルダウンメニューで選べば大丈夫です。ここで触るのは次の3つです。
+
+- Secure boot key
+- Boot priority
+
+
+#### Secure key
+- windows は boot するときに、UEFI（Unified Extensible Firmware Interface）を用いることを義務付けているので、従います。
+- Securityタブを開きます。
+- Install default Secure Boot Keysをクリック＆Yesしてください。
+
+
+
+#### Boot priority
+ディスクの起動順を変更します。
+
+- Bootタブを開きます
+- BootOption #1　をUEFI Sandisk Extremeに設定します。
+これでBIOSの設定は終わりです。
+
+### Boot する
+これからこの画面を保存して閉じ、windows install を始めましょう。
+
+- Exitタブを開きます。
+- Save Change & Exitをクリック＆Yesしてください。
+
+すると自動的に windows install 開始画面に遷移します。少し時間が掛かります。
 ## 2. Windows Install[A]
 
 windows をインストールします。この節では、画面遷移ごとに
@@ -61,8 +91,14 @@ windows をインストールします。この節では、画面遷移ごとに
 ### Windows セットアップ ~ 適用される通知とライセンス条項[共通]
 __ライセンスをよく読み、同意したら、__ 同意しますにチェックを入れ、「次へ」をクリックします。
 
+### Windows セットアップ ~ インストールの種類を選んでください
+今回は既存の環境を全部消して、新しくWindowsをインストールするので、「カスタム」をクリックします。  
+（アップグレードは既存のWindowsを活かす感じのオプションです。普通（RA基準）は使いません。）
+### Windows セットアップ ~ Windowsのインストール場所を選んでください。
 
-### Windows セットアップ ~ インストールの種類を選んでください[B, Cのみ]
+
+
+### Windows セットアップ ~ インストールの種類を選んでください[A]
 ### Windows セットアップ ~ Windowsのインストール場所を選んでください。
  下の写真の状況になっていたらOKです (容量は環境により異なります)。次へをクリックします。
  ![partitions_OK](img/imgpartOK.JPG)

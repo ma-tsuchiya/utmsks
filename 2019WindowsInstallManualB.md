@@ -52,7 +52,7 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 - 「セキュアブートメニュー」にいると思うので、「セキュアブートキーの削除」（Clear Secure Boot Key）をクリック＆Yesします
 - 「セキュアブートキーの初期化」（Initial Default Secure Boot Keys）もクリック＆Yesしてください。
 
-これで BIOS の設定は終わりです。
+
 
 
 #### Boot priority
@@ -60,6 +60,7 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 
 - 「起動優先度」（Boot priority）のリストに於いて、「UEFI:SanDisk Extreme」をマウスドラックで一番上にします。初めからそうなっていれば何もしなくて大丈夫です。
 
+これで BIOS の設定は終わりです。
 
 ### Boot する
 これからこの画面を保存して閉じ、windows install を始めましょう。
@@ -99,11 +100,13 @@ windows をインストールします。この節では、画面遷移ごとに
 ### Windows セットアップ ~ 適用される通知とライセンス条項[共通]
 __ライセンスをよく読み、同意したら、__ 同意しますにチェックを入れ、「次へ」をクリックします。
 
-
-### Windows セットアップ ~ インストールの種類を選んでください[B, Cのみ]
+### Windows セットアップ ~ インストールの種類を選んでください
 今回は既存の環境を全部消して、新しくWindowsをインストールするので、「カスタム」をクリックします。  
 （アップグレードは既存のWindowsを活かす感じのオプションです。普通（RA基準）は使いません。）
 ### Windows セットアップ ~ Windowsのインストール場所を選んでください。
+
+
+
 
 #### パーティション設定[B, Cのみ]
 B、Cマシンでは、昨年度の実習の環境が残っています。これを上書きしてインストールするために、
