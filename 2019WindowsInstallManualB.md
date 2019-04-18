@@ -30,7 +30,7 @@ TA の配布する USB メモリに Windows が入っているので、それを
 タイミングが割とシビアなのでちゃんと連打しましょう。すると見慣れない画面に遷移するはずです。それが BIOS の設定画面です。なお Windows のログイン画面が出たら連打ゲー失敗なので、一度シャットダウンしてやり直してください。
 
 <!--- 画面の写真を貼るところから--->
-![BIOS 設定画面](img/img1.JPG)
+![BIOS 設定画面](img/BIOS_B.JPG)
 
 ### BIOS の設定をする
 表示言語はおそらく英語か日本語になっていると思います。どちらでも問題ないのですが、変えるには左上の「English」とか書いてある部分をクリックしてプルダウンメニューで選べば大丈夫です。ここで触るのは次の3つです。
@@ -45,12 +45,13 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 
 - 画面右下の「Advanced」とある部分をクリックするか、F7を押しましょう
 - 「起動」（Boot）タブをクリック
-- 「セキュアブートメニュー」(Secure Boot) をクリックし
+- 「Secure Boot」をクリックします(下にスクロールしていくとあります)。
 - 「OS タイプ」（OS Types）とあるところを「Windows UEFI モード」（Windows UEFI mode）にしましょう。
 
 #### Secure key
-- 「セキュアブートメニュー」にいると思うので、「セキュアブートキーの削除」（Clear Secure Boot Key）をクリック＆Yesします
-- 「セキュアブートキーの初期化」（Initial Default Secure Boot Keys）もクリック＆Yesしてください。
+- ｢OS Type｣のすぐ下にある「Key Management」を選択します。
+- 一番上の「Clear Secure Boot Key」をクリックして、出てくる選択肢で「Yes」を押します。
+- すると一番上が「Initial Default Secure Boot Keys」になるので、それをクリックして、出てくる選択肢で「Yes」を押します。
 
 これで BIOS の設定は終わりです。
 
