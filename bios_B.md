@@ -1,4 +1,5 @@
 <!--- 画面の写真を貼るところから--->
+
 ![BIOS 設定画面](img/img1.JPG)
 
 ### BIOS の設定をする
@@ -14,13 +15,13 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 
 - 画面右下の「Advanced」とある部分をクリックするか、F7を押しましょう
 - 「起動」（Boot）タブをクリック
-- 「セキュアブートメニュー」(Secure Boot) をクリックし
+- 「Secure Boot」をクリックします(下にスクロールしていくとあります)。
 - 「OS タイプ」（OS Types）とあるところを「Windows UEFI モード」（Windows UEFI mode）にしましょう。
 
 #### Secure key
-- 「セキュアブートメニュー」にいると思うので、「セキュアブートキーの削除」（Clear Secure Boot Key）をクリック＆Yesします
-- 「セキュアブートキーの初期化」（Initial Default Secure Boot Keys）もクリック＆Yesしてください。
-
+- ｢OS Type｣のすぐ下にある「Key Management」を選択します。
+- 一番上の「Clear Secure Boot Key」をクリックして、出てくる選択肢で「Yes」を押します。
+- すると一番上が「Initial Default Secure Boot Keys」になるので、それをクリックして、出てくる選択肢で「Yes」を押します。
 
 
 
