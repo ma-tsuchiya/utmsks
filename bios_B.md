@@ -22,7 +22,6 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 - 一番上の「Clear Secure Boot Key」をクリックして、出てくる選択肢で「Yes」を押します。
 - すると一番上が「Initial Default Secure Boot Keys」になるので、それをクリックして、出てくる選択肢で「Yes」を押します。
 
-これで BIOS の設定は終わりです。
 
 
 #### Boot priority
@@ -30,6 +29,7 @@ windows は boot するときに、UEFI（Unified Extensible Firmware Interface�
 
 - 「起動優先度」（Boot priority）のリストに於いて、「UEFI:SanDisk Extreme」をマウスドラックで一番上にします。初めからそうなっていれば何もしなくて大丈夫です。
 
+これで BIOS の設定は終わりです。
 
 ### Boot する
 これからこの画面を保存して閉じ、windows install を始めましょう。
